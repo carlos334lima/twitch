@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { List, CategoryCotainer, CategoryImage, CategoryName, CategoryStatus, RedCicle, Info } from './styles'
+
 import data from './data'
 
 interface ItemProps {
