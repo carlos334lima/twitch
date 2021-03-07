@@ -29,7 +29,7 @@ const Header: React.FC = () => {
         <Button>
           <MaterialCommunityIcons
           
-          name="notifications-none"
+          name="message-outline"
           size={26}
           color={colors.black}
           
@@ -40,7 +40,7 @@ const Header: React.FC = () => {
         <Button>
           <Feather 
           
-          name="notifications-none"
+          name="search"
           size={26}
           color={colors.black}
           

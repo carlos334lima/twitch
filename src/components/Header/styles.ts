@@ -12,7 +12,11 @@ export const Container = styled.View`
   padding-right: 14px;
 `;
 
-export const Avatar = styled.View`
+/* TouchableOpacity é um wrapper para fazer com que uma View responda apropriadamente a toques. 
+Ao ser clicado, a opacidade da View é diminuída, mas de maneira gradual, diminuindo assim 
+a sua intensidade. */
+
+export const Avatar = styled.TouchableOpacity`
 
   background: ${colors.tag};
 
@@ -38,9 +42,13 @@ export const OnlineStatus = styled.View`
 
 export const RightSide = styled.View`
 
+  flex-direction: row;
+
 `;
 
-export const Button = styled.View`
+export const Button = styled.TouchableOpacity`
+
+  margin-left: 20px;
 
 `;
 
