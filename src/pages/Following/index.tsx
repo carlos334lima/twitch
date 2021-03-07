@@ -6,6 +6,7 @@ import { FlatList, View } from "react-native";
 import Title from '../../components/Title'
 import Header from '../../components/Header'
 import Heading from '../../components/Heading'
+import CategoryList from '../../components/CategoryList'
 
 import { Wrapper, Container, Main } from "./styles";
 
@@ -28,7 +29,7 @@ const Following: React.FC = () => {
         render: () => <Title> Followed Categories </Title>,
         isTitle: true
       },
-      { key: 'C1', render: () => <View /> },
+      { key: 'C1', render: () => <CategoryList /> },
 
       
       {
