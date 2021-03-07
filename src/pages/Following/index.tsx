@@ -1,14 +1,19 @@
-import React from 'react';
+import React from "react";
 
-import { Text } from 'react-native';
+import { Text } from "react-native";
+import Header from '../../components/Header'
 
-import { Container } from './styles';
+import { Wrapper, Container, Main } from "./styles";
 
 const Following: React.FC = () => {
   return (
-    <Container>
-      <Text>Following</Text>
-    </Container>
+    <Wrapper>
+      <Container>
+      <Header />
+
+        <Main />
+      </Container>
+    </Wrapper>
   );
 };
 
